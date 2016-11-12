@@ -10,8 +10,9 @@ Useage from the command line: python olufsen.py {Device} {A or V} {Source}
 An example would be python olufsen.py BS3 V V.MEM
 
 Configure your devices based on the device ML number in the ML Gateway 
-programming screen. In this example, a Beovision 10 (BV10) has a MLN of 1
-put the command in the On or Off action of the Domoticz button using:
+programming screen. In the code, a Beovision 10 (BV10) has a MLN of 3 but change this based on your ML Gateway configuration.
+
+You can put the command in the On or Off action of the Domoticz button using:
 
 script:///home/pi/domoticz/progs/olufsen.py BV10 V V.MEM.
 
