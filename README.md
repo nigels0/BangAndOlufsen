@@ -19,7 +19,7 @@ You can put the command in the On or Off action of the Domoticz button using:
 script:///home/pi/domoticz/progs/olufsen.py BV10 V V.MEM.
 
 Note the {Source} should be one of the sources listed in the BEO4Source
-array below. the {Device} can be whatever name you wish - it just refers to the MLN
+array in the code. the {Device} can be whatever name you wish - it just refers to the MLN
 number of the device you wish to control
 Choose A or V depending whether it is an audio or video product
 Normally the Off script would be (for the Beovision 10 example):
