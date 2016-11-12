@@ -21,6 +21,7 @@ array below. the {Device} can be whatever name you wish - it just refers to the 
 number of the device you wish to control
 Choose A or V depending whether it is an audio or video product
 Normally the Off script would be (for the Beovision 10 example):
+
   script:///home/pi/domoticz/progs/olufsen.py BV10 V STANDBY
 
  Don't forget to make this python script executable (chmod +x olufsen.py)
