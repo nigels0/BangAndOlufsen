@@ -5,7 +5,8 @@ This python script is used within an action button from Domoticz (www.domoticz.c
 
 This was written for a Raspberry PI running Domoticz, with this code running on the same Raspberry Pi. Some environmental variables (IP addresses, ports etc) may need to be changed for this to work for you.
 
-Useage: python olufsen.py <Device> <A or V> <Source>
+Useage: python olufsen.py {Device} {A or V} {Source}
+
 An example would be python olufsen.py BS3 V V.MEM
 Configure your devices based on the device ML number in the ML Gateway 
 programming screen. In this example, a Beovision 10 (BV10) has a MLN of 1
