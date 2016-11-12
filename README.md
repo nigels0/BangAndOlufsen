@@ -27,3 +27,7 @@ Normally the Off script would be (for the Beovision 10 example):
   script:///home/pi/domoticz/progs/olufsen.py BV10 V STANDBY
 
  Don't forget to make this python script executable (chmod +x olufsen.py)
+ 
+ 
+ 
+ Link this with an Amazon Echo or dot using: https://github.com/madgeni/alexa_domo for voice control.
