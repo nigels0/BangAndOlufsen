@@ -5,6 +5,8 @@ This python script is used within an action button from Domoticz (www.domoticz.c
 
 This was written for a Raspberry PI running Domoticz, with this code running on the same Raspberry Pi. Some environmental variables (IP addresses, ports etc) may need to be changed for this to work for you.
 
+You need to edit the python script to be able to add your devices and their masterlink number.
+
 Useage from the command line: python olufsen.py {Device} {A or V} {Source}
 
 An example would be python olufsen.py BS3 V V.MEM
@@ -25,5 +27,3 @@ Normally the Off script would be (for the Beovision 10 example):
   script:///home/pi/domoticz/progs/olufsen.py BV10 V STANDBY
 
  Don't forget to make this python script executable (chmod +x olufsen.py)
-
-You need to edit the python script to be able to add your devices and their masterlink number.
